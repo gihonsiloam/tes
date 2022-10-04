@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "aokwoakwokaowkaokwoaowk"
+    return "cek 123"
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
