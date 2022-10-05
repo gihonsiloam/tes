@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "aaaaaaaaaaaaaa"
+    return "tes 1 2 3 4"
 
 @app.route('version')
 def get_version():
